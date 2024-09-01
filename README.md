@@ -1,4 +1,4 @@
-## 👋 Olá! Eu sou Gabriella Maria Couto Oliveira
+# 👋 Olá! Eu sou Gabriella Maria Couto Oliveira
 
 ## Sobre mim
 
@@ -16,7 +16,7 @@ Tenho experiência com softwares de tecnologia assistiva como leitores de tela T
 
 ♑🦅 🙏🏻 #Deusmocomando
 
-## 🔗 Como me encontrar
+## Como me encontrar
 
 - LinkedIn: https://www.linkedin.com/in/gabicouto93/
 - Email: gabi.mc.oliveira@gmail.com
