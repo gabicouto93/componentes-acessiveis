@@ -10,25 +10,28 @@ body {
 }
 
 header {
-    background: #4CAF50;
+    background: #0000FF;
     color: white;
     padding: 1em;
     text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
+        display: inline;
     margin: 0 10px;
+}
+
+li {    
+    list-style-type: none;
 }
 
 a {
     color: #4CAF50;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover, a:focus {

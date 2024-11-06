@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página inicial de Componentes acessíveis.">
-    <title>Página inicial - Componentes acessíveis</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Página contato de Componentes acessíveis.">
+    <title>Contato - Componentes Acessíveis</title>
+    <link rel="stylesheet" href="css/contato.css">
+    <script src="scripts/contato.js"></script>
 </head>
-<body>
+    
+<body>  
     <header aria-label="Cabeçalho" id=""cabecalho">
         <ul>
             <li><a href="#menu">Ir para o menu</a></li>
@@ -17,21 +19,32 @@
         <h1 id="heading1">Componentes Acessíveis</h1>
         <nav id="menu" aria-label="Menu principal">
             <ul>
-                <li><a aria-current="page" href="https://gabicouto93.github.io/componentes-acessiveis">Página inicial</a></li>
+                <li><a href="https://gabicouto93.github.io/componentes-acessiveis">Página inicial</a></li>
                 <li><a href="https://gabicouto93.github.io/componentes-acessiveis/sobre.html">Sobre</a></li>
                 <li><a href="https://gabicouto93.github.io/componentes-acessiveis/componentes-acessiveis.html">Componentes acessíveis</a></li>
-                <li><a href="https://gabicouto93.github.io/componentes-acessiveis/contato.html">Contato</a></li>
-            </ul
+                <li><a aria-current="page" href="https://gabicouto93.github.io/componentes-acessiveis/contato.html">Contato</a></li>
+            </ul>
         </nav>
     </header>
 
     <main id="conteudo-principal">
-            <h2 id="bemvindo-heading">Bem vindo!</h2>
-            <p id=paragrafo1"">Olá, sou Gabriella Oliveira, analista de teste em Acessibilidade digital e desenvolvedora web.</p>
-    <p id="paragrafo2">Esta página tem como objetivo apresentar componentes web acessíveis, projetados para oferecer uma experiência inclusiva a todos os usuários. Cada componente foi desenvolvido com boas práticas de acessibilidade, garantindo uma navegação intuitiva e informações claras. Aqui você encontrará exemplos práticos, com isso, proporcionamos uma web mais acessível e inclusiva.</p>
+            <h2 id="contato-heading">Contato</h2>
+<p>Entre em contato conosco através do formulário a seguir:</p>
+            <form action="https://formsubmit.co/gabi.mc.oliveira@gmail.com" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+    
+                <button type="submit">Enviar</button>
+            </form>
         </main>
-
-    <footer id="rodape" aria-label="rodapé">
+    
+                <footer id="rodape" aria-label="rodapé">
         <h2 id="redes-sociais">Redes sociais</h2>
         <p id="email">Entre em contato por <a href="mailto:gabi.mc.oliveira@gmail.com">e-mail</a>.</p>
     <p id="linkedin"><a href="https://www.linkedin.com/in/gabicouto93" target="_blank" aria-label="Linkedin - abre em uma nova aba">Linkedin</a></p>

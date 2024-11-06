@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+li {    
+    list-style-type: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+#sobre-heading {
+    margin-top: 0;
+}
+
+#paragrafo1 {
+    margin-top: 0;
+}
+
+#paragrafo4 {
+    margin-bottom: 0;
+}
+
+#paragrafo5 {
+    margin-bottom: 0;
+}
+
+#redes-sociais {
+    margin-top: 0;
+}
+
+#email {
+    margin-top: 0;
+}
+
+#linkedin {
+    margin-bottom: 0;
+}
+
+#github {
+    margin-bottom: 0;
+}
